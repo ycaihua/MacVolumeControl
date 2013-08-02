@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD2C48217ABAD80007D4770 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD2C48117ABAD80007D4770 /* Cocoa.framework */; };
+		2AD2C48C17ABAD80007D4770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2C48A17ABAD80007D4770 /* InfoPlist.strings */; };
+		2AD2C48E17ABAD80007D4770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2C48D17ABAD80007D4770 /* main.m */; };
+		2AD2C49217ABAD80007D4770 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2C49017ABAD80007D4770 /* Credits.rtf */; };
+		2AD2C49517ABAD80007D4770 /* TrackMixAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2C49417ABAD80007D4770 /* TrackMixAppDelegate.m */; };
+		2AD2C49817ABAD80007D4770 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2C49617ABAD80007D4770 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AD2C47D17ABAD80007D4770 /* TrackMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD2C48117ABAD80007D4770 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2AD2C48417ABAD80007D4770 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2AD2C48517ABAD80007D4770 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2AD2C48617ABAD80007D4770 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AD2C48917ABAD80007D4770 /* TrackMix-Info.plist */ = {isa = PBXFileReference; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
+		2AD2C48B17ABAD80007D4770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AD2C48D17ABAD80007D4770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AD2C48F17ABAD80007D4770 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
+		2AD2C49117ABAD80007D4770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2AD2C49317ABAD80007D4770 /* TrackMixAppDelegate.h */ = {isa = PBXFileReference; path = TrackMixAppDelegate.h; sourceTree = "<group>"; };
+		2AD2C49417ABAD80007D4770 /* TrackMixAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixAppDelegate.m; sourceTree = "<group>"; };
+		2AD2C49717ABAD80007D4770 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD2C47A17ABAD80007D4770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD2C48217ABAD80007D4770 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD2C47217ABAD80007D4770 = {
+			isa = PBXGroup;
+			children = (
+				2AD2C48717ABAD80007D4770 /* TrackMix */,
+				2AD2C48017ABAD80007D4770 /* Frameworks */,
+				2AD2C47E17ABAD80007D4770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AD2C47E17ABAD80007D4770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2C47D17ABAD80007D4770 /* TrackMix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AD2C48017ABAD80007D4770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2C48117ABAD80007D4770 /* Cocoa.framework */,
+				2AD2C48317ABAD80007D4770 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AD2C48317ABAD80007D4770 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2C48417ABAD80007D4770 /* AppKit.framework */,
+				2AD2C48517ABAD80007D4770 /* CoreData.framework */,
+				2AD2C48617ABAD80007D4770 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2AD2C48717ABAD80007D4770 /* TrackMix */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2C49317ABAD80007D4770 /* TrackMixAppDelegate.h */,
+				2AD2C49417ABAD80007D4770 /* TrackMixAppDelegate.m */,
+				2AD2C49617ABAD80007D4770 /* MainMenu.xib */,
+				2AD2C48817ABAD80007D4770 /* Supporting Files */,
+			);
+			path = TrackMix;
+			sourceTree = "<group>";
+		};
+		2AD2C48817ABAD80007D4770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2C48917ABAD80007D4770 /* TrackMix-Info.plist */,
+				2AD2C48A17ABAD80007D4770 /* InfoPlist.strings */,
+				2AD2C48D17ABAD80007D4770 /* main.m */,
+				2AD2C48F17ABAD80007D4770 /* TrackMix-Prefix.pch */,
+				2AD2C49017ABAD80007D4770 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AD2C47C17ABAD80007D4770 /* TrackMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD2C49B17ABAD80007D4770 /* Build configuration list for PBXNativeTarget "TrackMix" */;
+			buildPhases = (
+				2AD2C47917ABAD80007D4770 /* Sources */,
+				2AD2C47A17ABAD80007D4770 /* Frameworks */,
+				2AD2C47B17ABAD80007D4770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMix;
+			productName = TrackMix;
+			productReference = 2AD2C47D17ABAD80007D4770 /* TrackMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AD2C47417ABAD80007D4770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = DevelopStuff.net;
+			};
+			buildConfigurationList = 2AD2C47717ABAD80007D4770 /* Build configuration list for PBXProject "TrackMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AD2C47217ABAD80007D4770;
+			productRefGroup = 2AD2C47E17ABAD80007D4770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AD2C47C17ABAD80007D4770 /* TrackMix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD2C47B17ABAD80007D4770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD2C48C17ABAD80007D4770 /* InfoPlist.strings in Resources */,
+				2AD2C49217ABAD80007D4770 /* Credits.rtf in Resources */,
+				2AD2C49817ABAD80007D4770 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD2C47917ABAD80007D4770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD2C48E17ABAD80007D4770 /* main.m in Sources */,
+				2AD2C49517ABAD80007D4770 /* TrackMixAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AD2C48A17ABAD80007D4770 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD2C48B17ABAD80007D4770 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AD2C49017ABAD80007D4770 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD2C49117ABAD80007D4770 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2AD2C49617ABAD80007D4770 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD2C49717ABAD80007D4770 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AD2C49917ABAD80007D4770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2AD2C49A17ABAD80007D4770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2AD2C49C17ABAD80007D4770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix/TrackMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AD2C49D17ABAD80007D4770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix/TrackMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD2C47717ABAD80007D4770 /* Build configuration list for PBXProject "TrackMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD2C49917ABAD80007D4770 /* Debug */,
+				2AD2C49A17ABAD80007D4770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD2C49B17ABAD80007D4770 /* Build configuration list for PBXNativeTarget "TrackMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD2C49C17ABAD80007D4770 /* Debug */,
+				2AD2C49D17ABAD80007D4770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AD2C47417ABAD80007D4770 /* Project object */;
+}

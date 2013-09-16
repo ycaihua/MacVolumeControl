@@ -21,12 +21,12 @@
 		2AD2C48417ABAD80007D4770 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2AD2C48517ABAD80007D4770 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2AD2C48617ABAD80007D4770 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2AD2C48917ABAD80007D4770 /* TrackMix-Info.plist */ = {isa = PBXFileReference; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
+		2AD2C48917ABAD80007D4770 /* TrackMix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
 		2AD2C48B17ABAD80007D4770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AD2C48D17ABAD80007D4770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2AD2C48F17ABAD80007D4770 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
+		2AD2C48F17ABAD80007D4770 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
 		2AD2C49117ABAD80007D4770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2AD2C49317ABAD80007D4770 /* TrackMixAppDelegate.h */ = {isa = PBXFileReference; path = TrackMixAppDelegate.h; sourceTree = "<group>"; };
+		2AD2C49317ABAD80007D4770 /* TrackMixAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMixAppDelegate.h; sourceTree = "<group>"; };
 		2AD2C49417ABAD80007D4770 /* TrackMixAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixAppDelegate.m; sourceTree = "<group>"; };
 		2AD2C49717ABAD80007D4770 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

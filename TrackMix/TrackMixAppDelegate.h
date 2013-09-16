@@ -10,8 +10,15 @@
 
 @interface TrackMixAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    NSTextField *textField;
+    NSSlider *slider;
 }
 
+@property (assign) IBOutlet NSTextField *textField;
+@property (assign) IBOutlet NSSlider *slider;
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)mute:(id)sender;
+- (IBAction)takeFloatValueForVolumeFrom:(id)sender;
 
 @end

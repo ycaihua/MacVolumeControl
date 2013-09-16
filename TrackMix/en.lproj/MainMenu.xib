@@ -1343,7 +1343,6 @@
 							<string key="NSFrame">{{32, 12}, {72, 32}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:161</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="811072297">
@@ -1357,8 +1356,9 @@
 								</object>
 								<string key="NSCellIdentifier">_NS:161</string>
 								<reference key="NSControlView" ref="682622483"/>
-								<int key="NSButtonFlags">-2038284033</int>
-								<int key="NSButtonFlags2">129</int>
+								<int key="NSButtonFlags">917913855</int>
+								<int key="NSButtonFlags2">1</int>
+								<reference key="NSAlternateImage" ref="1038828246"/>
 								<string key="NSAlternateContents"/>
 								<string key="NSKeyEquivalent"/>
 								<int key="NSPeriodicDelay">200</int>
@@ -3720,12 +3720,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>mute</string>
 							<string>slider</string>
 							<string>textField</string>
 							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>NSButton</string>
 							<string>NSSlider</string>
 							<string>NSTextField</string>
 							<string>NSWindow</string>
@@ -3735,12 +3737,17 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>mute</string>
 							<string>slider</string>
 							<string>textField</string>
 							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">mute</string>
+								<string key="candidateClassName">NSButton</string>
+							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">slider</string>
 								<string key="candidateClassName">NSSlider</string>
